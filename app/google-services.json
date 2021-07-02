@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "540588939972",
+    "project_id": "syajarotunislam",
+    "storage_bucket": "syajarotunislam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540588939972:android:147ea48a4159f5300d8791",
+        "android_client_info": {
+          "package_name": "com.teguh.sejarahislam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540588939972-33mpjccpqtdo52g5ep5uora57bnc6mg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4GaEI7wzhRSwafzglZHXpDJedWgZYq2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540588939972-33mpjccpqtdo52g5ep5uora57bnc6mg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

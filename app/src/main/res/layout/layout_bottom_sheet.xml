@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:id="@+id/bottomSheetContainer"
+    android:background="@drawable/bottom_sheet_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerAbout"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="@dimen/_60sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_280sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_toStartOf="@id/viewPagerAbout"
+        android:layout_centerInParent="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/btn_next_about"/>
+    <Button
+        android:id="@+id/btn_prev"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/viewPagerAbout"
+        android:layout_alignParentStart="true"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/btn_back_about"/>
+
+</RelativeLayout>
